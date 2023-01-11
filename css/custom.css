@@ -537,7 +537,6 @@ h6::before {
     -o-transform: translateY(58px)!important;
 }
 #nav{
-    background: linear-gradient(60deg,#ffd7e4 0,#c8f1ff 93%);
     transition: none!important;
     -webkit-transition: none!important;
     -moz-transition: none!important;
@@ -596,4 +595,12 @@ center#name-container {
 }
 #nav{
     padding: 0 20px;
+}
+
+element.style {
+}
+#page-header.nav-fixed #nav {
+    background: linear-gradient(60deg,#ffd7e4 0,#c8f1ff 93%)!important;
+    opacity: .95;
+    backdrop-filter: var(--backdrop-filter);
 }
