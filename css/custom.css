@@ -889,7 +889,11 @@ center#name-container {
 }
 /* 自定义底部  End */
 
-
+#page-header.nav-fixed #nav {
+    background: linear-gradient(60deg,#ffd7e4 0,#c8f1ff 93%);
+    opacity: .95;
+    backdrop-filter: var(--backdrop-filter);
+}
 
 
 
