@@ -894,6 +894,9 @@ center#name-container {
     opacity: .95;
     backdrop-filter: var(--backdrop-filter);
 }
-
+#page-header.nav-fixed #nav a {
+    color: #4c4948;
+    text-shadow: none;
+}
 
 
